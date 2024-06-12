@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    height: 100vh;
 }
 
 .top {
@@ -21,15 +22,16 @@ body {
     align-items: center;
     padding-top: 10px;
     background-color: #1F2937;
+    gap: 20px;
 }
 
 .header,
 .content-1 {
+    display: flex;
     width: 900px;
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -77,6 +79,30 @@ button {
     border-radius: 5px;
 }
 
+.left,
+.placeholder {
+    flex: 1;
+
+}
+
 .placeholder {
     background-color: rgb(150, 148, 148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top,
+.content-2,
+.content-3,
+.content-4 {
+    flex: auto;
+}
+
+.content-1 {
+    gap: 20px;
+}
+
+.left button {
+    margin-top: 10px;
 }
