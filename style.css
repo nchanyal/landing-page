@@ -41,16 +41,42 @@ ul {
     gap: 20px;
 }
 
+a,
+.hero-subtext,
+.placeholder {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 a:link,
 a:visited,
 a:hover,
 a:active {
     text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
+}
+
+.logo,
+.hero-text {
+    color: #F9FAF8;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 0;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.placeholder {
+    background-color: rgb(150, 148, 148);
 }
