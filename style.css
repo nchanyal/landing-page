@@ -44,7 +44,8 @@ ul {
 
 a,
 .hero-subtext,
-.placeholder {
+.placeholder,
+.action-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -57,12 +58,16 @@ a:active {
 }
 
 .logo,
-.hero-text {
+.hero-text,
+.action-header,
+.container button {
     color: #F9FAF8;
 }
 
-.logo {
+.logo,
+.action-header {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .hero-text {
@@ -76,6 +81,8 @@ button {
     border: 0;
     padding: 5px 20px;
     border-radius: 5px;
+    font-weight: bold;
+    width: 100px;
 }
 
 .left,
@@ -84,11 +91,16 @@ button {
 
 }
 
-.placeholder {
-    background-color: rgb(150, 148, 148);
+.placeholder,
+.content-4,
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.placeholder {
+    background-color: rgb(150, 148, 148);
 }
 
 .top,
@@ -147,7 +159,7 @@ button {
 
 .content-3 {
     background-color: #E5E7EB;
-
+    justify-content: center;
 }
 
 .quote {
@@ -160,4 +172,16 @@ button {
     font-size: 20px;
     display: flex;
     justify-content: flex-end;
+}
+
+.container {
+    background-color: #3882F6;
+    width: 900px;
+    height: 150px;
+    border-radius: 10px;
+    gap: 150px;
+}
+
+.container button {
+    border: 2px solid #E5E7EB;
 }
